@@ -1,17 +1,25 @@
 import React, { Component } from "react";
-// import './App.css';
-// import API from './utils/API';
 import Container from './Container';
 import Col from "./Col";
 import Card from "./Card";
 import Row from "./Row";
+import API from "../utils/API"
 
 
 class EmployeeDirectoryContainer extends Component {
+  constructor(){
+    super();
+  }
   state = {
-    result: {},
-    search: ""
+    users: [],
+    search: "",
   };
+
+  componentDidMount(){
+    API.search().then((searchedUsers) => {
+      console.log(searchedUsers.data.results);
+    })
+  }
 
 
 
@@ -24,7 +32,7 @@ class EmployeeDirectoryContainer extends Component {
           <Col size ='md-8'>
             <Card>
                 <div>
-                    <h1>TestApp.js</h1>
+                    <h1></h1>
                 </div>
             </Card>
           </Col>
