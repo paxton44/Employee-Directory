@@ -4,22 +4,18 @@ import Container from './Container';
 import Card from "./Card";
 // import Row from "./Row";
 import API from "../utils/API"
+import EmployeeList from "./EmployeeList";
 
 
 class EmployeeDirectoryContainer extends Component {
-  constructor(){
-    super();
-  }
+
   state = {
     users: [],
     // search: "",
   };
 
   componentDidMount(){
-    API.search().then((searchedUsers) => {
-      console.log(searchedUsers.data.results);
-      this.setState({ users: searchedUsers.data.results });
-    })
+  
   }
 
 
@@ -30,11 +26,7 @@ class EmployeeDirectoryContainer extends Component {
       //build out views
      <Container>
             <Card>
-                <div>
-                    <h1>
-                    <Card users={this.state.users} /> 
-                    </h1>
-                </div>
+               
             </Card>
      </Container> 
     );
