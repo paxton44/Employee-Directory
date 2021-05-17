@@ -13,7 +13,7 @@ This application gives the user the opportunity to view their entire staff and u
 
 
 ## Deployed Page
- * https://budget-tracker-mpf2021.herokuapp.com/
+ * https://paxton44.github.io/Employee-Directory/
 
 
 
