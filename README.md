@@ -23,7 +23,6 @@ This application gives the user the opportunity to view their entire staff and u
 ## Building Tools 
  * CSS
  * Express
- * Heroku
  * HTML
  * Javascript
  * Node.js
