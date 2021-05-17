@@ -18,7 +18,7 @@ This application gives the user the opportunity to view their entire staff and u
 
 
 ## User Story
-<pre><code>As a User that is traveling I want to be able to track my travel budget whether I have an internet connection or not.</code></pre>
+<pre><code>As a User that is an owner of a company I want an application that allows me to view my entire staff and view their profiles that contain their basic contact information.</code></pre>
 
 ## Building Tools 
  * CSS
