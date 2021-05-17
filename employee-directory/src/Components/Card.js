@@ -1,20 +1,24 @@
 //Employee Profile Card
 import React from "react";
-
+import EmployeeList from "./EmployeeList";
+import EmployeeProfile from "./EmployeeProfile";
 
 function Card(props) {
   return (
     <div className="card text-center">
       <div className="card-header">
-        <h1>{props.heading}Test</h1>
+        <h1>{props.heading}Test
+        <EmployeeProfile />
+        
+        </h1>
         
 
 
   
       </div>
       <div className="card-body">
-        {/* {props.children} */}
-      
+       
+      <EmployeeList />
       
      
       </div>
