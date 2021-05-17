@@ -7,10 +7,12 @@ function Card(props) {
   return (
     <div className="card text-center">
       <div className="card-header">
-        <h1>{props.heading}Employee Directory
+        <h1>{props.heading}Employee Directory</h1>
+        <form>
         
-        
-        </h1>
+        <input type="text" onChange={props.handleNameSearch} />
+        <button>Search By First Name</button>
+          </form>
         
 
 
