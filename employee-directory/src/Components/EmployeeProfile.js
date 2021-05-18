@@ -1,16 +1,16 @@
-import React from 'react';
+// import React from 'react';
 
 
 
 
-function EmployeeProfile(props) {
-    //cool ternary operator from activity 20
- return  <div className={`container${props.fluid ? "-fluid" : ""}`}>{props.children} TestEmployeeProfile
+// function EmployeeProfile(props) {
+//     //cool ternary operator from activity 20
+//  return  <div className={`container${props.fluid ? "-fluid" : ""}`}>{props.children} TestEmployeeProfile
  
 
    
-</div>;
-}
+// </div>;
+// }
 
 
 
@@ -18,4 +18,4 @@ function EmployeeProfile(props) {
 
 
 
-export default EmployeeProfile;
+// export default EmployeeProfile;

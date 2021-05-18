@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import Container from './Container';
-// import Col from "./Col";
 import Card from "./Card";
-// import Row from "./Row";
 import API from "../utils/API"
-import EmployeeList from "./EmployeeList";
 
 
 class EmployeeDirectoryContainer extends Component {
@@ -30,11 +26,11 @@ class EmployeeDirectoryContainer extends Component {
     return (
 
       //build out views
-     <Container>
-            <Card>
+   
+            <Card users={this.state.users}>
                
             </Card>
-     </Container> 
+     
     );
   }
 }

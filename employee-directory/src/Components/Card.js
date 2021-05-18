@@ -1,7 +1,6 @@
-//Employee Profile Card
 import React from "react";
 import EmployeeList from "./EmployeeList";
-// import EmployeeProfile from "./EmployeeProfile";
+
 
 function Card(props) {
   return (
@@ -20,7 +19,7 @@ function Card(props) {
       </div>
       <div className="card-body">
        
-      <EmployeeList />
+      <EmployeeList users={props.users} />
       
      
       </div>
