@@ -4,16 +4,15 @@ import axios from "axios";
 const BASEURL = "https://randomuser.me/api/?results=25";
 
 console.log(BASEURL);
+// const API = {
+//     getEmployeeData: function(query) {
+//         return axios.get(BASEURL);
+//     }
+// }
 
-
-//normally wed need an api key but the provided api is open source and doesn't require a key! 
-// const APIKEY = "&apikey=trilogy";
-
-// eslint-disable-next-line import/no-anonymous-default-export
+// export default API
 export default {
     search: function (query) {
-        return axios.get(BASEURL + query);
-        
-    }
-    
-};
+      return axios.get(BASEURL);
+    },
+  };

@@ -8,11 +8,11 @@ function EmployeeList(props) {
             <table style={{ width: "100%" }}>
                 <thead>
                     <tr>
-                        <th>Picture {props.picture}</th>
-                        <th> First Name</th>
-                        <th>Last Name</th>
-                        <th>Email</th>
-                        <th>Cell Phone</th>
+                        <th>Picture </th>
+                        <th> First Name </th>
+                        <th>Last Name </th>
+                        <th>Email </th>
+                        <th>Cell Phone </th>
                     </tr>
                 </thead>
              

@@ -10,16 +10,22 @@ import EmployeeList from "./EmployeeList";
 class EmployeeDirectoryContainer extends Component {
 
   state = {
+    search: "",
     users: [],
-    // search: "",
+    filterResults: []
   };
 
-  componentDidMount(){
+ 
+    componentDidMount() {
+      //this turns the data readable by formatting it into json under the hood
+      API.search().then((response) => {
+    
+        this.setState({ users: response.data.results });
+      });
+      //check to make sure im making an empty array to put data in
+      console.log(this.state.users);
+    }
   
-  }
-
-
-
   render() {
     return (
 
